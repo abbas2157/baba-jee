@@ -13,7 +13,8 @@
                 <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Main office 19 old sivil line Babar road near
                     khatam chok sargodha city.</p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+92 3347501223 <br> +92 3347501223 </p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+92 3347501223</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+92 3347501223</p>
                 <p class="mb-2"><i class="fa fa-male  me-3"></i>CEO: Ch.Qurban Shahean.</p>
                 <p class="mb-2"><i class="fa fa-male  me-3"></i>Director: Ch.Azan , Areaz Qurban.</p>
 
