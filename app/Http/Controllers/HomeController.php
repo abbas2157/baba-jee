@@ -13,6 +13,34 @@ class HomeController extends Controller
     {
         return view('index');
     }
+    public function services()
+    {
+        return view('services');
+    }
+    public function about()
+    {
+        return view('about');
+    }
+    public function menue()
+    {
+        return view('menue');
+    }
+    public function contact()
+    {
+        return view('contact');
+    }
+    public function booking()
+    {
+        return view('booking');
+    }
+    public function ourteam()
+    {
+        return view('ourteam');
+    }
+    public function Testimonial()
+    {
+        return view('Testimonial');
+    }
 
     /**
      * Show the form for creating a new resource.

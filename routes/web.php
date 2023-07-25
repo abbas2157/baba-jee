@@ -18,3 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/',[HomeController::class,'index']);
+Route::get('/services',[HomeController::class,'services']);
+Route::get('/about',[HomeController::class,'about']);
+Route::get('/menue',[HomeController::class,'menue']);
+Route::get('/contact',[HomeController::class,'contact']);
+Route::get('/booking',[HomeController::class,'booking']);
+Route::get('/ourteam',[HomeController::class,'ourteam']);
+Route::get('/testimonial',[HomeController::class,'testimonial']);
