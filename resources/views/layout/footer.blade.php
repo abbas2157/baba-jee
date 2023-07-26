@@ -11,8 +11,8 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Main office 19 old sivil line Babar road near
-                    khatam chok sargodha city.</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Main Office 19 Old Sivil Line Babar Road Near
+                    khatam Chok Sargodha City.</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+92 3347501223</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+92 3347501223</p>
                 <p class="mb-2"><i class="fa fa-male  me-3"></i>CEO: Ch.Qurban Shahean.</p>
@@ -43,7 +43,7 @@
         <div class="copyright">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">Your Site Baba Jee</a>, All Right Reserved. 
+                    &copy; <a class="border-bottom" href="#">Your Site Baba Jee</a>
                     
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                 </div>

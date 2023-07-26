@@ -20,33 +20,32 @@
         <div class="row g-4">
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                   <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                         <h5>Wedding Planner</h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                   <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                         <h5>Event Planner</h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                   <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                         <h5>Food Supplier</h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
                 <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-headset text-primary mb-4"></i>
-                        <h5>Live Kitchen</h5>
+                   <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>                        <h5>Live Kitchen</h5>
                     </div>
                 </div>
             </div>
@@ -54,33 +53,32 @@
         <div class="row g-4">
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                   <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                         <h5>Stage Decoration</h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                   <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                         <h5>Interior Decoration</h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                   <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                         <h5>Cool and Heat System</h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
                 <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-headset text-primary mb-4"></i>
-                        <h5>Markee Setup</h5>
+                   <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>                        <h5>Markee Setup</h5>
                     </div>
                 </div>
             </div>
@@ -88,33 +86,32 @@
         <div class="row g-4">
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                   <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                         <h5>Dara Setup</h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                   <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                         <h5>Lounch Lighting Setup</h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                   <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                         <h5>Heavy Gernator</h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
                 <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-headset text-primary mb-4"></i>
-                        <h5>Dancing Floor</h5>
+                   <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>                        <h5>Dancing Floor</h5>
                     </div>
                 </div>
             </div>
@@ -122,33 +119,32 @@
         <div class="row g-4">
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                   <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                         <h5>Birtday Decoration</h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                   <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                         <h5>Food Still play stool</h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                   <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                         <h5>Outdoor Catering</h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
                 <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-headset text-primary mb-4"></i>
-                        <h5>24/7 Service</h5>
+                   <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>                        <h5>24/7 Service</h5>
                     </div>
                 </div>
             </div>

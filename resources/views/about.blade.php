@@ -37,8 +37,26 @@
                     <div class="col-lg-6">
                         <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
                         <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>Restoran</h1>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <p class="mb-4">Distribution Laptop:
+                            University of Sargodha 15,000/ Students
+                            <br>
+                            Dr zulafaqor Ali Bhati M.N.N 10.000/ With Food 
+                            <br>
+                            Ashayana Housing Prime Minister Pakistan  12000
+                            <br>
+                              Openinig Cermany or New Town .........
+                              <br>
+                            Rayl Orcherd
+                            <br>
+                            Sarmeko Garden
+                            <br>
+                            Eagil City
+                            <br>
+                            Graean City
+                            <br>
+                            Fazaya Scheme
+                            <br>
+                            Edion Life
                         <div class="row g-4 mb-4">
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center border-start border-5 border-primary px-3">

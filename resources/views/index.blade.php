@@ -21,14 +21,14 @@
             <div class="row g-4">
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                        <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                             <h5>Wedding Planner</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item rounded pt-3">
+                    <div class="service-item rounded pt-3" style="text-align: center">
                         <div class="p-4">
                             <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                             <h5>Event Planner</h5>
@@ -37,16 +37,16 @@
                 </div>
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                        <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                             <h5>Food Supplier</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="service-item rounded pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                        <div class="p-4" style="text-align: center">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                             <h5>Live Kitchen</h5>
                         </div>
                     </div>
@@ -80,10 +80,26 @@
                 <div class="col-lg-6">
                     <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
                     <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>Restoran</h1>
-                    <p class="mb-4">Tempor erat as elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                        eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="mb-4">Distribution Laptop:
+                        University of Sargodha 15,000/ Students
+                        <br>
+                        Dr zulafaqor Ali Bhati M.N.N 10.000/ With Food 
+                        <br>
+                        Ashayana Housing Prime Minister Pakistan  12000
+                        <br>
+                          Openinig Cermany or New Town .........
+                          <br>
+                        Rayl Orcherd
+                        <br>
+                        Sarmeko Garden
+                        <br>
+                        Eagil City
+                        <br>
+                        Graean City
+                        <br>
+                        Fazaya Scheme
+                        <br>
+                        Edion Life
                     <div class="row g-4 mb-4">
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center border-start border-5 border-primary px-3">
@@ -174,10 +190,10 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/49img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/64img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Barbeque</span>
+                                            <span>Faroot traifol</span>
                                         </h5>
                                     </div>
                                 </div>
@@ -204,27 +220,27 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/52img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/63img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Mutton Karahi</span>
+                                            <span>Nan</span>
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/53img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/65img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Namkeen Karahi</span>
+                                            <span>Cold Drink</span>
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/54img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/80img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Variety of Sweets</span>
@@ -238,80 +254,80 @@
                         <div class="row g-4">
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/menu-1.jpg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/65img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
+                                            <span>Cold Drink</span>
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/menu-2.jpg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/69img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
+                                            <span>Fried Rice</span>
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/menu-3.jpg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/70img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
+                                            <span>Shahlak</span>
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/menu-4.jpg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/66img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
+                                            <span>Chinese food</span>
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/menu-5.jpg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/62img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
+                                            <span>Rayta</span>
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/menu-6.jpg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/61img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
+                                            <span>Fresh sillad</span>
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/menu-7.jpg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/47img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
+                                            <span>Sindhi Biryani</span>
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/menu-8.jpg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/52img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
+                                            <span>Mutton Karahi</span>
                                         </h5>
                                     </div>
                                 </div>
@@ -322,20 +338,20 @@
                         <div class="row g-4">
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/menu-1.jpg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/61img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
+                                            <span>Fresh sillad</span>
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/menu-2.jpg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/52img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
+                                            <span>Mutton Karahi</span>
                                         </h5>
                                     </div>
                                 </div>
@@ -352,50 +368,50 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/menu-4.jpg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/68img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
+                                            <span>Maunchoolin</span>
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/menu-5.jpg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/67img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
+                                            <span>Jalfreazi</span>
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/menu-6.jpg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/49img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
+                                            <span>Barbeque</span>
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/menu-7.jpg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/65img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
+                                            <span>Cold Drink</span>
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/menu-8.jpg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/80img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                            <span>Chicken Burger</span>
+                                            <span>Variety of Sweets</span>
                                         </h5>
                                     </div>
                                 </div>
@@ -418,7 +434,7 @@
                         <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/71img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
                     </div>
                     <div class="col-md-6">
-                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/72img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
+                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/22img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
                     </div>
                 </div>
                 <div class="row">
@@ -510,72 +526,6 @@
 
 
     <!-- Team Start -->
-    <div class="container-xxl pt-5 pb-3">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h5 class="section-title ff-secondary text-center text-primary fw-normal">Team Members</h5>
-                <h1 class="mb-5">Our Master Chefs</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item text-center rounded overflow-hidden">
-                        <div class="rounded-circle overflow-hidden m-4">
-                            <img class="img-fluid" src="{{ asset('assets/img/team-1.jpg') }}" alt="">
-                        </div>
-                        <h5 class="mb-0">Full Name</h5>
-                        <small>Designation</small>
-                        <div class="d-flex justify-content-center mt-3">
-                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item text-center rounded overflow-hidden">
-                        <div class="rounded-circle overflow-hidden m-4">
-                            <img class="img-fluid" src="{{ asset('assets/img/team-2.jpg') }}" alt="">
-                        </div>
-                        <h5 class="mb-0">Full Name</h5>
-                        <small>Designation</small>
-                        <div class="d-flex justify-content-center mt-3">
-                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item text-center rounded overflow-hidden">
-                        <div class="rounded-circle overflow-hidden m-4">
-                            <img class="img-fluid" src="{{ asset('assets/img/team-3.jpg') }}" alt="">
-                        </div>
-                        <h5 class="mb-0">Full Name</h5>
-                        <small>Designation</small>
-                        <div class="d-flex justify-content-center mt-3">
-                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item text-center rounded overflow-hidden">
-                        <div class="rounded-circle overflow-hidden m-4">
-                            <img class="img-fluid" src="{{ asset('assets/img/team-4.jpg') }}" alt="">
-                        </div>
-                        <h5 class="mb-0">Full Name</h5>
-                        <small>Designation</small>
-                        <div class="d-flex justify-content-center mt-3">
-                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
      <!-- Testimonial Start -->
     <!-- Testimonial End -->
 @endsection
