@@ -428,8 +428,7 @@
                     <div class="col-md-6">
                         <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/74img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
                     </div>
-                </div>
-                
+                </div>                
                 <div class="row">
                     <div class="col-md-6">
                         <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/75img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
@@ -439,7 +438,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-6 bg-dark d-flex align-items-center">
                 <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
                     <h5 class="section-title ff-secondary text-start text-primary fw-normal">Reservation</h5>
