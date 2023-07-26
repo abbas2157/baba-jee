@@ -415,56 +415,27 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="video">
-                            <button type="button" class="btn-play" data-bs-toggle="modal"
-                                data-src="{{ asset('assets/img/41video.mp4') }}" data-bs-target="#videoModal">
-                                <span></span>
-                            </button>
-                        </div>
+                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/71img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
                     </div>
                     <div class="col-md-6">
-                        <div class="video1">
-                            <button type="button" class="btn-play" data-bs-toggle="modal"
-                                data-src="{{ asset('assets/img/42video.mp4') }}" data-bs-target="#videoModal">
-                                <span></span>
-                            </button>
-                        </div>
+                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/72img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="video2">
-                            <button type="button" class="btn-play" data-bs-toggle="modal"
-                                data-src="{{ asset('assets/img/43video.mp4') }}" data-bs-target="#videoModal">
-                                <span></span>
-                            </button>
-                        </div>
+                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/73img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
                     </div>
                     <div class="col-md-6">
-                        <div class="video3">
-                            <button type="button" class="btn-play" data-bs-toggle="modal"
-                                data-src="{{ asset('assets/img/44video.mp4') }}" data-bs-target="#videoModal">
-                                <span></span>
-                            </button>
-                        </div>
+                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/74img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
                     </div>
                 </div>
+                
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="video4">
-                            <button type="button" class="btn-play" data-bs-toggle="modal"
-                                data-src="{{ asset('assets/img/45video.mp4') }}" data-bs-target="#videoModal">
-                                <span></span>
-                            </button>
-                        </div>
+                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/75img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
                     </div>
                     <div class="col-md-6">
-                        <div class="video5">
-                            <button type="button" class="btn-play" data-bs-toggle="modal"
-                                data-src="{{ asset('assets/img/46video.mp4') }}" data-bs-target="#videoModal">
-                                <span></span>
-                            </button>
-                        </div>
+                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/76img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
                     </div>
                 </div>
             </div>
