@@ -1,53 +1,76 @@
 @extends('layout.master')
 @section('content')
-<div class="container-xxl position-relative p-0">
-    <div class="container-xxl py-5 bg-dark hero-header mb-5">
-        <div class="container my-5 py-5">
-            <div class="row align-items-center g-5">
-                <div class="col-lg-6 text-center text-lg-start">
-                    <h1 class="display-3 text-white animated slideInLeft">We deal in<br>all type of events</h1>
-                    <p class="text-white animated slideInLeft mb-4 pb-2">Contractor of university of Sargodha, Sargodha Police and Sargodha Bar Association. Wender P.A.F base, Experience of Pakistan Army Ramazn Bazar 2016 to 2022 and Sahloot Bazar 2020</p>
-                    <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a>
-                </div>
-                <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-                    <img class="img-fluid" src="{{ asset('assets/img/hero.png') }}" alt="">
+    <div class="container-xxl position-relative p-0">
+        <div class="container-xxl py-5 bg-dark hero-header mb-5">
+            <div class="container my-5 py-5">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6 text-center text-lg-start">
+                        <h1 class="display-3 text-white animated slideInLeft">We deal in<br>all type of events</h1>
+                        <p class="text-white animated slideInLeft mb-4 pb-2">Contractor of university of Sargodha, Sargodha
+                            Police and Sargodha Bar Association. Wender P.A.F base, Experience of Pakistan Army Ramazn Bazar
+                            2016 to 2022 and Sahloot Bazar 2020</p>
+                        <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a>
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-end foverlow-hidden">
+                        <img class="img-fluid" src="{{ asset('assets/img/hero.png') }}" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item rounded pt-3">
-                        <div class="p-4" style="text-align: center">
+                    <div class="service-item rounded pt-3"
+                        style="background-image: url('{{ asset('assets/img/30img.jpeg') }}'); position: relative;">
+                        <!-- Dark overlay to make the image darker -->
+                        <div
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8);">
+                        </div>
+                        <div class="p-4" style="text-align: center; position: relative; z-index: 1;">
                             <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
-                            <h5>Wedding Planner</h5>
+                            <h5 style="color: white">Wedding Planner</h5>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item rounded pt-3" style="text-align: center">
-                        <div class="p-4">
+                    <div class="service-item rounded pt-3"
+                        style="background-image: url('{{ asset('assets/img/19img.jpeg') }}'); position: relative;">
+                        <!-- Dark overlay to make the image darker -->
+                        <div
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8);">
+                        </div>
+                        <div class="p-4" style="text-align: center; position: relative; z-index: 1;">
                             <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
-                            <h5>Event Planner</h5>
+                            <h5 style="color: white">Event Planner</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item rounded pt-3">
-                        <div class="p-4" style="text-align: center">
+                    <div class="service-item rounded pt-3"
+                        style="background-image: url('{{ asset('assets/img/51img.jpeg') }}'); position: relative;">
+                        <!-- Dark overlay to make the image darker -->
+                        <div
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8);">
+                        </div>
+                        <div class="p-4" style="text-align: center; position: relative; z-index: 1;">
                             <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
-                            <h5>Food Supplier</h5>
+                            <h5 style="color: white">Food Supplier</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item rounded pt-3">
-                        <div class="p-4" style="text-align: center">
+                    <div class="service-item rounded pt-3"
+                        style="background-image: url('{{ asset('assets/img/49img.jpeg') }}'); position: relative;">
+                        <!-- Dark overlay to make the image darker -->
+                        <div
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8);">
+                        </div>
+                        <div class="p-4" style="text-align: center; position: relative; z-index: 1;">
                             <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
-                            <h5>Live Kitchen</h5>
+                            <h5 style="color: white">Live Kitchen</h5>
                         </div>
                     </div>
                 </div>
@@ -83,12 +106,12 @@
                     <p class="mb-4">Distribution Laptop:
                         University of Sargodha 15,000/ Students
                         <br>
-                        Dr zulafaqor Ali Bhati M.N.N 10.000/ With Food 
+                        Dr zulafaqor Ali Bhati M.N.N 10.000/ With Food
                         <br>
-                        Ashayana Housing Prime Minister Pakistan  12000
+                        Ashayana Housing Prime Minister Pakistan 12000
                         <br>
-                          Openinig Cermany or New Town .........
-                          <br>
+                        Openinig Cermany or New Town .........
+                        <br>
                         Rayl Orcherd
                         <br>
                         Sarmeko Garden
@@ -138,7 +161,8 @@
             <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
                 <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
                     <li class="nav-item">
-                        <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                        <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill"
+                            href="#tab-1">
                             <i class="fa fa-coffee fa-2x text-primary"></i>
                             <div class="ps-3">
                                 <small class="text-body">Popular</small>
@@ -156,7 +180,8 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                        <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill"
+                            href="#tab-3">
                             <i class="fa fa-utensils fa-2x text-primary"></i>
                             <div class="ps-3">
                                 <small class="text-body">Lovely</small>
@@ -170,7 +195,9 @@
                         <div class="row g-4">
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/47img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/47img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Sindhi Biryani</span>
@@ -180,7 +207,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/48img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/48img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Buffet system</span>
@@ -190,7 +219,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/64img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/64img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Faroot traifol</span>
@@ -200,7 +231,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/58img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/58img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>kheer</span>
@@ -210,7 +243,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/61img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/61img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Fresh sillad</span>
@@ -220,7 +255,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/63img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/63img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Nan</span>
@@ -230,7 +267,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/65img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/65img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Cold Drink</span>
@@ -240,7 +279,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/80img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/80img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Variety of Sweets</span>
@@ -254,7 +295,9 @@
                         <div class="row g-4">
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/65img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/65img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Cold Drink</span>
@@ -264,7 +307,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/69img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/69img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Fried Rice</span>
@@ -274,7 +319,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/70img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/70img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Shahlak</span>
@@ -284,7 +331,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/66img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/66img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Chinese food</span>
@@ -294,7 +343,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/62img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/62img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Rayta</span>
@@ -304,7 +355,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/61img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/61img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Fresh sillad</span>
@@ -314,7 +367,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/47img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/47img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Sindhi Biryani</span>
@@ -324,7 +379,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/52img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/52img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Mutton Karahi</span>
@@ -338,7 +395,9 @@
                         <div class="row g-4">
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/61img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/61img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Fresh sillad</span>
@@ -348,7 +407,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/52img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/52img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Mutton Karahi</span>
@@ -358,7 +419,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/menu-3.jpg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/menu-3.jpg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Chicken Burger</span>
@@ -368,7 +431,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/68img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/68img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Maunchoolin</span>
@@ -378,7 +443,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/67img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/67img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Jalfreazi</span>
@@ -388,7 +455,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/49img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/49img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Barbeque</span>
@@ -398,7 +467,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/65img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/65img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Cold Drink</span>
@@ -408,7 +479,9 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/80img.jpeg') }}" alt="" style="width: 80px; height: 80px;">
+                                    <img class="flex-shrink-0 img-fluid rounded"
+                                        src="{{ asset('assets/img/80img.jpeg') }}" alt=""
+                                        style="width: 80px; height: 80px;">
                                     <div class="w-100 d-flex flex-column text-start ps-4">
                                         <h5 class="d-flex justify-content-between border-bottom pb-2">
                                             <span>Variety of Sweets</span>
@@ -431,26 +504,32 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/71img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
+                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/71img.jpeg') }}"
+                            alt="" style="width: 350px; height: 200px;">
                     </div>
                     <div class="col-md-6">
-                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/22img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
+                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/22img.jpeg') }}"
+                            alt="" style="width: 350px; height: 200px;">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/73img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
+                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/73img.jpeg') }}"
+                            alt="" style="width: 350px; height: 200px;">
                     </div>
                     <div class="col-md-6">
-                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/74img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
+                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/74img.jpeg') }}"
+                            alt="" style="width: 350px; height: 200px;">
                     </div>
-                </div>                
+                </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/75img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
+                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/75img.jpeg') }}"
+                            alt="" style="width: 350px; height: 200px;">
                     </div>
                     <div class="col-md-6">
-                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/76img.jpeg') }}" alt="" style="width: 350px; height: 200px;">
+                        <img class="flex-shrink-0 img-fluid rounded" src="{{ asset('assets/img/76img.jpeg') }}"
+                            alt="" style="width: 350px; height: 200px;">
                     </div>
                 </div>
             </div>
@@ -458,48 +537,7 @@
                 <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
                     <h5 class="section-title ff-secondary text-start text-primary fw-normal">Reservation</h5>
                     <h1 class="text-white mb-4">Book A Table Online</h1>
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Your Name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                    <label for="email">Your Email</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating date" id="date3" data-target-input="nearest">
-                                    <input type="text" class="form-control datetimepicker-input" id="datetime"
-                                        placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
-                                    <label for="datetime">Date & Time</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <select class="form-select" id="select1">
-                                        <option value="1">People 1</option>
-                                        <option value="2">People 2</option>
-                                        <option value="3">People 3</option>
-                                    </select>
-                                    <label for="select1">No Of People</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Special Request" id="message" style="height: 100px"></textarea>
-                                    <label for="message">Special Request</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
-                            </div>
-                        </div>
-                    </form>
+                    @include('tables.user')
                 </div>
             </div>
         </div>
@@ -526,6 +564,6 @@
 
 
     <!-- Team Start -->
-     <!-- Testimonial Start -->
+    <!-- Testimonial Start -->
     <!-- Testimonial End -->
 @endsection

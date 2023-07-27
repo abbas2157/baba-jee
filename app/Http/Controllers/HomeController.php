@@ -2,6 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contact;
+use Carbon\Carbon;
+use Carbon\Exceptions\InvalidFormatException;
+use Illuminate\Validation\ValidationException;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -29,10 +34,55 @@ class HomeController extends Controller
     {
         return view('contact');
     }
+    public function stor(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'subject' => 'required|string|max:255',
+            'message' => 'nullable|string|max:1000',
+        ]);
+        $contact = new Contact();
+        $contact->name = $request->name;
+        $contact->email = $request->email;
+        $contact->subject = $request->subject;
+        $contact->message = $request->message;
+        $contact->save();
+
+        return redirect()->back()->with('success', 'Your data has been submitted!');
+    }
     public function booking()
     {
         return view('booking');
     }
+    public function store(Request $request)
+    {
+        try {
+            $datetimeString = $request->input('datetime');
+            $formattedDatetime = Carbon::createFromFormat('m/d/Y g:i A', $datetimeString)->format('Y-m-d H:i:s');
+        } catch (InvalidFormatException $e) {
+            throw ValidationException::withMessages(['datetime' => 'Invalid datetime format.']);
+        }
+
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'datetime' => 'required',
+            'people' => 'required|integer|min:1',
+            'message' => 'nullable|string|max:1000',
+        ]);
+        $user = new User();
+        $user->name = $request->name;
+        $user->email = $request->email;
+        $user->datetime = $formattedDatetime;
+        $user->people = $request->people;
+        $user->message = $request->message;
+        $user->save();
+
+        return redirect()->back()->with('success', 'Your data has been submitted!');
+    }
+
+
     public function ourteam()
     {
         return view('ourteam');
@@ -53,10 +103,6 @@ class HomeController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
-    {
-        //
-    }
 
     /**
      * Display the specified resource.
