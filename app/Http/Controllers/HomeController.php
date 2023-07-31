@@ -89,7 +89,7 @@ class HomeController extends Controller
     }
     public function Testimonial()
     {
-        return view('Testimonial');
+        return view('testimonial');
     }
 
     /**
