@@ -78,6 +78,35 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script>
+    $(document).ready(function() {
+        $('#my-form').submit(function(event) {
+            event.preventDefault();
+
+            var form = $('#my-form')[0];
+            var formData = new FormData(form);
+
+            $.ajax({
+                type: 'POST',
+                url: "{{ url('contact/store') }}",
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function(data) {
+                    $("#output").text(data.res);
+                },
+                error: function(e) {
+                    $("#output").text(e.responseText);
+                }
+            });
+        });
+    });
+    $('#button').click(function() {
+        $(this).css('background-color', 'red');
+    }).mouseleave(function() {
+        $(this).css('background-color', '');
+    });
+</script>
 </body>
 
 </html>

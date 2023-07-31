@@ -31,34 +31,5 @@
     </div>
 </form>
 <div id="success-message" style="display: none; color: green;">Table Booked successfully!</div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <span id="output"></span>
-<script>
-    $(document).ready(function() {
-        $('#my-form').submit(function(event) {
-            event.preventDefault();
 
-            var form = $('#my-form')[0];
-            var formData = new FormData(form);
-
-            $.ajax({
-                type: 'POST',
-                url: "{{ route('stor') }}",
-                data: formData,
-                processData: false,
-                contentType: false,
-                success: function(data) {
-                    $("#output").text(data.res);
-                },
-                error: function(e) {
-                    $("#output").text(e.responseText);
-                }
-            });
-        });
-    });
-    $('#button').click(function() {
-        $(this).css('background-color', 'red');
-    }).mouseleave(function() {
-        $(this).css('background-color', '');
-    });
-</script>

@@ -20,7 +20,7 @@ Route::get('/about',[HomeController::class,'about']);
 Route::get('/menue',[HomeController::class,'menue']);
 
 Route::get('/contact',[HomeController::class,'contact']);
-Route::post('/stor',[HomeController::class,'stor'])->name('stor');
+Route::post('contact/store',[HomeController::class,'stor'])->name('contact_store');
 
 Route::get('/booking',[HomeController::class,'booking']);
 Route::post('/store',[HomeController::class,'store'])->name('store');
