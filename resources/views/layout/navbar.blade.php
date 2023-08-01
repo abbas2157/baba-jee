@@ -8,21 +8,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0 pe-4">
-                <a href="{{url('/')}}" class="nav-item nav-link active">Home</a>
-                <a href="{{url('about')}}" class="nav-item nav-link">About</a>
-                <a href="{{url('services')}}" class="nav-item nav-link">Service</a>
-                <a href="{{url('menue')}}"  class="nav-item nav-link">Menu</a>
+                <a href="{{ url('/') }}" class="nav-item nav-link {{ request()->is('/') ? 'active' : '' }}">Home</a>
+                <a href="{{url('about')}}" class="nav-item nav-link {{Request::url() === url('about') ? 'active' : ''}}">About</a>
+                <a href="{{url('services')}}" class="nav-item nav-link {{Request::url() === url('services') ? 'active' : ''}}">Service</a>
+                <a href="{{url('menue')}}"  class="nav-item nav-link {{Request::url() === url('menue') ? 'active' : ''}}">Menu</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Others</a>
+                    <a href="#" class="nav-link dropdown-toggle {{ request()->is('booking', 'ourteam', 'testimonial') ? 'active' : '' }}" data-bs-toggle="dropdown">Others</a>
                     <div class="dropdown-menu m-0">
-                        <a href="{{url('booking')}}" class="dropdown-item">Booking</a>
-                        <a href="{{url('ourteam')}}" class="dropdown-item">Our Team</a>
-                        <a href="{{url('testimonial')}}" class="dropdown-item">Testimonial</a>
+                        <a href="{{url('booking')}}" class="dropdown-item {{Request::url() === url('booking') ? 'active' : ''}}">Booking</a>
+                        <a href="{{url('ourteam')}}" class="dropdown-item {{Request::url() === url('ourteam') ? 'active' : ''}}">Our Team</a>
+                        <a href="{{url('testimonial')}}" class="dropdown-item {{Request::url() === url('testimonial') ? 'active' : ''}}">Testimonial</a>
                     </div>
                 </div>
-                <a href="{{url('contact')}}"  class="nav-item nav-link">Contact</a>
+                <a href="{{url('contact')}}"  class="nav-item nav-link {{Request::url() === url('contact') ? 'active' : ''}}">Contact</a>
             </div>
-            <a href="" class="btn btn-primary py-2 px-4">Book A Table</a>
+            <a href="" class="btn btn-primary py-2 px-4 ">Book A Table</a>
         </div>
     </nav>
 </div>

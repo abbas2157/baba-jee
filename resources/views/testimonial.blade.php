@@ -1,5 +1,6 @@
 @extends('layout.master')
 @section('content')
+<title>Testimonial</title>
 <div class="container-xxl position-relative p-0">
 
     <div class="container-xxl py-5 bg-dark hero-header mb-5">

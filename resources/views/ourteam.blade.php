@@ -1,5 +1,6 @@
 @extends('layout.master')
 @section('content')
+<title>Our Team</title>
 <div class="container-xxl pb-3">
     <div class="container">
         <div class="container-xxl position-relative p-0">

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Restoran - Bootstrap Restaurant</title>
+    @yield('title')
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -78,35 +78,7 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
-    <script>
-    $(document).ready(function() {
-        $('#my-form').submit(function(event) {
-            event.preventDefault();
-
-            var form = $('#my-form')[0];
-            var formData = new FormData(form);
-
-            $.ajax({
-                type: 'POST',
-                url: "{{ url('contact/store') }}",
-                data: formData,
-                processData: false,
-                contentType: false,
-                success: function(data) {
-                    $("#output").text(data.res);
-                },
-                error: function(e) {
-                    $("#output").text(e.responseText);
-                }
-            });
-        });
-    });
-    $('#button').click(function() {
-        $(this).css('background-color', 'red');
-    }).mouseleave(function() {
-        $(this).css('background-color', '');
-    });
-</script>
+    @yield('page-scripts')
+    
 </body>
-
 </html>
